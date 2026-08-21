@@ -5,4 +5,6 @@ test('Locator',async({page})=>{
      await page.locator('input[placeholder*="Search"]').fill('T-shirt dress');
      await page.keyboard.press('Enter');
      await page.waitForTimeout(3000);
+     await page.waitForTimeout(4000);
+     
 })   
